@@ -1,7 +1,0 @@
-D:\Edu\BackEnd\CAT\Cat-Tasks.CSharpAdvancedPart1\Cat-Tasks.CSharpAdvancedPart1\bin\Debug\Cat-Tasks.CSharpAdvancedPart1.exe.config
-D:\Edu\BackEnd\CAT\Cat-Tasks.CSharpAdvancedPart1\Cat-Tasks.CSharpAdvancedPart1\bin\Debug\Cat-Tasks.CSharpAdvancedPart1.exe
-D:\Edu\BackEnd\CAT\Cat-Tasks.CSharpAdvancedPart1\Cat-Tasks.CSharpAdvancedPart1\bin\Debug\Cat-Tasks.CSharpAdvancedPart1.pdb
-D:\Edu\BackEnd\CAT\Cat-Tasks.CSharpAdvancedPart1\Cat-Tasks.CSharpAdvancedPart1\obj\Debug\Cat-Tasks.CSharpAdvancedPart1.csproj.AssemblyReference.cache
-D:\Edu\BackEnd\CAT\Cat-Tasks.CSharpAdvancedPart1\Cat-Tasks.CSharpAdvancedPart1\obj\Debug\Cat-Tasks.CSharpAdvancedPart1.csproj.CoreCompileInputs.cache
-D:\Edu\BackEnd\CAT\Cat-Tasks.CSharpAdvancedPart1\Cat-Tasks.CSharpAdvancedPart1\obj\Debug\Cat-Tasks.CSharpAdvancedPart1.exe
-D:\Edu\BackEnd\CAT\Cat-Tasks.CSharpAdvancedPart1\Cat-Tasks.CSharpAdvancedPart1\obj\Debug\Cat-Tasks.CSharpAdvancedPart1.pdb
