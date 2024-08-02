@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cat-Tasks.CSharpAdvancedPart2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+328c139685166195035ec41b4f9383a743209775")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a644f4b2213044fe014591e2b62a2e5273d3ae41")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cat-Tasks.CSharpAdvancedPart2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cat-Tasks.CSharpAdvancedPart2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

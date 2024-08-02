@@ -3,3 +3,13 @@ D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart
 D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.AssemblyInfo.cs
 D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.csproj.CoreCompileInputs.cache
 D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.sourcelink.json
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\bin\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.exe
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\bin\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.deps.json
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\bin\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.runtimeconfig.json
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\bin\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.dll
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\bin\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.pdb
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.dll
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\refint\Cat-Tasks.CSharpAdvancedPart2.dll
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.pdb
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.genruntimeconfig.cache
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\ref\Cat-Tasks.CSharpAdvancedPart2.dll

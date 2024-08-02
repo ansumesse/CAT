@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Library.AddBook(new Book() { ISBN = "133133" });
+            Console.ReadKey();
         }
     }
 }
