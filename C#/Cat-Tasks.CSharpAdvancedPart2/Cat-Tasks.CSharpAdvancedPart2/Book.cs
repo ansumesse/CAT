@@ -16,5 +16,10 @@ namespace Cat_Tasks.CSharpAdvancedPart2
        
         private string? publisher;
         private int? publishedYear;
+
+        public override string ToString()
+        {
+            return $"{Title}, {Author}, {ISBN}, {publisher}, {publishedYear}\n";
+        }
     }
 }
