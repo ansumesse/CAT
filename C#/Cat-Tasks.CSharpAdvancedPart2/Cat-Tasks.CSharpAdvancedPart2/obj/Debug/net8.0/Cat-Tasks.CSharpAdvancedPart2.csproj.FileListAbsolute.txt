@@ -1,0 +1,5 @@
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.AssemblyInfoInputs.cache
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.AssemblyInfo.cs
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.csproj.CoreCompileInputs.cache
+D:\Edu\BackEnd\CAT\C#\Cat-Tasks.CSharpAdvancedPart2\Cat-Tasks.CSharpAdvancedPart2\obj\Debug\net8.0\Cat-Tasks.CSharpAdvancedPart2.sourcelink.json

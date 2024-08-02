@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,7 +9,7 @@ namespace Cat_Tasks.CSharpAdvancedPart2
 {
     internal static class StringExtensions
     {
-        static bool IsValidISBN(this string ISBN)
+        public static bool IsValidISBN(this string ISBN)
         {
             if (IsValidISBN_10(ISBN) || IsValidISBN_13(ISBN))
                 return true;
