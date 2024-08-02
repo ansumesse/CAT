@@ -4,6 +4,12 @@ namespace Cat_Tasks.CSharpAdvancedPart1
 {
     public class Employee
     {
+        public Employee(int iD, string name, int age, int totalSales, decimal salary) => (ID, Name, Age, TotalSales, Salary) = (iD, name, age, totalSales, salary);
+
+        public Employee()
+        {
+        }
+
         // Normal delegete
         public delegate bool IsElligeble(Employee e);
         public delegate void SalaryChangedHandler(Employee e, decimal oldSalary);
