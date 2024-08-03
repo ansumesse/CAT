@@ -18,4 +18,17 @@ SELECT D.DEPARTMENTNAME ,COUNT(E.ID) AS [NUMBER]
 SELECT TOP 10 (SALARY)
 	FROM EMPLOYEES
 --5 Find employees who work in departments located in the 'East' region.
- 
+SELECT *
+	FROM EMPLOYEES
+	WHERE DEPARTMENT IN (SELECT DEPARTMENTID
+							FROM DEPARTMENTS
+							WHERE LOC = 'EAST')
+
+--6  Create a view named ActiveEmployees that displays only active employees.
+CREATE VIEW ActiveEmployees
+AS
+SELECT *
+	FROM EMPLOYEES E
+	WHERE E.ISACTIVE = 1;
+
+
