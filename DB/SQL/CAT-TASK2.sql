@@ -31,4 +31,11 @@ SELECT *
 	FROM EMPLOYEES E
 	WHERE E.ISACTIVE = 1;
 
+--7 Create a stored procedure named GetEmployeeDetails to fetch all employee details.
+CREATE PROCEDURE GetEmployeeDetails
+AS
+BEGIN
+		SELECT *
+			FROM EMPLOYEES E
+END
 
