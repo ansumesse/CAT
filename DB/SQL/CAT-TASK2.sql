@@ -1,4 +1,4 @@
-USE COMPANY1
+USE COMPANY
 --1  Retrieve employee information including their department name by joining the Employees and Departments tables.
 SELECT E.*, D.DEPARTMENTNAME
 	FROM EMPLOYEES E INNER JOIN DEPARTMENTS D
@@ -39,3 +39,31 @@ BEGIN
 			FROM EMPLOYEES E
 END
 
+EXEC GetEmployeeDetails
+
+--8 Format the HireDate column of the Employees table as 'dd/MM/yyyy'.
+SELECT FORMAT(E.HIREDATE, 'dd/MM/yyyy')
+	FROM EMPLOYEES E
+
+--9  Define a function named CalculateBonus to compute a 10% bonus on the salary.
+CREATE FUNCTION CalculateBonus (@SALARY DECIMAL)
+RETURNS DECIMAL AS
+BEGIN
+		RETURN @SALARY * 0.1
+END
+
+SELECT dbo.CalculateBonus(SALARY) AS [BONUS]
+	FROM EMPLOYEES
+
+--10 Declare a temporary table to store the IDs and names of top-performing employees.
+DECLARE @TOP_PERFORMING_EMP TABLE (
+	ID INT,
+	NAME VARCHAR(MAX)
+)
+INSERT INTO @TOP_PERFORMING_EMP
+	SELECT E.ID, E.NAME
+		FROM EMPLOYEES E
+		WHERE ISACTIVE = 1
+SELECT * FROM @TOP_PERFORMING_EMP
+
+--11  Implement error handling to catch and log any errors occurring during database operations.
