@@ -11,6 +11,13 @@
             {
                 Console.WriteLine(item);
             }
+
+            string Name = "MohAMmED";
+            var UpperLtters = Name.UpperLetters();
+            foreach (var item in UpperLtters)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
