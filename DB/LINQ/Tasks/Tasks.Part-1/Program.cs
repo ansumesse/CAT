@@ -1,4 +1,6 @@
-﻿namespace Tasks.Part_1
+﻿using FunctionalProgramming;
+
+namespace Tasks.Part_1
 {
     internal class Program
     {
@@ -15,6 +17,18 @@
             string Name = "MohAMmED";
             var UpperLtters = Name.UpperLetters();
             foreach (var item in UpperLtters)
+            {
+                Console.WriteLine(item);
+            }
+
+            var Employees = Repository.LoadEmployees();
+            var EmpsFullName = ProjectionOperation_03.GetFullName(Employees);
+            foreach (var item in EmpsFullName)
+            {
+                Console.WriteLine(item);
+            }
+            var Males = ProjectionOperation_03.GetMaleEmps(Employees);
+            foreach (var item in Males)
             {
                 Console.WriteLine(item);
             }
