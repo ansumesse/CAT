@@ -32,6 +32,12 @@ namespace Tasks.Part_1
             {
                 Console.WriteLine(item);
             }
+
+            var Sorted = SortingData_04.SortEmpsByDepAndSalary(Employees);
+            foreach (var item in Sorted)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
