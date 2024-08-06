@@ -1,0 +1,15 @@
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\bin\Debug\net8.0\Tasks.Part-1.exe
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\bin\Debug\net8.0\Tasks.Part-1.deps.json
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\bin\Debug\net8.0\Tasks.Part-1.runtimeconfig.json
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\bin\Debug\net8.0\Tasks.Part-1.dll
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\bin\Debug\net8.0\Tasks.Part-1.pdb
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\Tasks.Part-1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\Tasks.Part-1.AssemblyInfoInputs.cache
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\Tasks.Part-1.AssemblyInfo.cs
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\Tasks.Part-1.csproj.CoreCompileInputs.cache
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\Tasks.Part-1.sourcelink.json
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\Tasks.Part-1.dll
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\refint\Tasks.Part-1.dll
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\Tasks.Part-1.pdb
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\Tasks.Part-1.genruntimeconfig.cache
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-1\obj\Debug\net8.0\ref\Tasks.Part-1.dll
