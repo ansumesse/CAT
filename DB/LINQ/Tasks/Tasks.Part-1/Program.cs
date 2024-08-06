@@ -50,6 +50,9 @@ namespace Tasks.Part_1
                 }
             }
 
+            Console.WriteLine(Quantifiers_06.CheckAll(Employees));
+            Console.WriteLine(Quantifiers_06.CheckAny(Employees));
+
 
         }
     }
