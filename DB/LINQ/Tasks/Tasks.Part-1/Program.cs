@@ -53,6 +53,19 @@ namespace Tasks.Part_1
             Console.WriteLine(Quantifiers_06.CheckAll(Employees));
             Console.WriteLine(Quantifiers_06.CheckAny(Employees));
 
+            counter = 0;
+            var Groups = GroupingData_07.GroupByDep(Employees);
+            var TotalPerGroup = GroupingData_07.CalcTotalAndAvgSalary(Groups, out List<decimal> AvgPerGroup).ToList();
+            foreach (var group in Groups)
+            {
+                Console.WriteLine(group.Key + $"\tTotal Salary: {TotalPerGroup[counter]}\tAverage Salary = {AvgPerGroup[counter++]:N2}");
+                foreach (var emp in group)
+                {
+                    Console.WriteLine(emp);
+                }
+            }
+           
+
 
         }
     }
