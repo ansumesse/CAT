@@ -38,6 +38,19 @@ namespace Tasks.Part_1
             {
                 Console.WriteLine(item);
             }
+
+            var Chunks = DataPartitioning_05.Partition(Employees);
+            int counter = 0;
+            foreach (var chunk in Chunks)
+            {
+                Console.WriteLine($"partition[{++counter}]");
+                foreach (var emp in chunk)
+                {
+                    Console.WriteLine(emp);
+                }
+            }
+
+
         }
     }
 }
