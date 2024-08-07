@@ -13,7 +13,7 @@ namespace Tasks.Part_1
         public static IEnumerable<Employee> SortEmpsByDepAndSalary(IEnumerable<Employee> employees)
         {
             //var sortedEmps = from emp in employees
-            //                 orderby (emp.Department, emp.Salary)
+            //                 orderby (emp.Name, emp.Salary)
             //                 select emp;
 
             var sortedEmps = employees.OrderBy(x => x.Department).ThenBy(x => x.Salary);

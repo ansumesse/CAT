@@ -4,12 +4,22 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Xml;
+using Tasks.Part_1;
 
 namespace FunctionalProgramming
 {
     public static class Repository
     {
-
+        public static IEnumerable<Department> LoadDepartments()
+        {
+            return new List<Department>
+            {
+                new Department {Name ="FIMAMCE", ManagerId = 1034 },
+                new Department {Name ="IT", ManagerId = 1022 },
+                new Department {Name ="Accounting"},
+                new Department {Name ="HR", ManagerId = 1037 }
+            };
+        }
         public static IEnumerable<Employee> LoadEmployees()
         {
             return new List<Employee> 

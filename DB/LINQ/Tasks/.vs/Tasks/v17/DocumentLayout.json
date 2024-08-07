@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|solutionrelative:tasks.part-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-1\\groupingdata-07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|solutionrelative:tasks.part-1\\groupingdata-07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-1\\joinoperations-08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|solutionrelative:tasks.part-1\\joinoperations-08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-1\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|solutionrelative:tasks.part-1\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-1\\depmanagersnamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|solutionrelative:tasks.part-1\\depmanagersnamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-1\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0961D9B3-0D6A-4FF4-81D7-5740D163EB56}|Tasks.Part-1\\Tasks.Part-1.csproj|solutionrelative:tasks.part-1\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GroupingData-07.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\GroupingData-07.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-1\\GroupingData-07.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\GroupingData-07.cs",
-              "RelativeToolTip": "Tasks.Part-1\\GroupingData-07.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABOAAAA",
+              "DocumentIndex": 3,
+              "Title": "DepManagersNameDto.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\DepManagersNameDto.cs",
+              "RelativeDocumentMoniker": "Tasks.Part-1\\DepManagersNameDto.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\DepManagersNameDto.cs",
+              "RelativeToolTip": "Tasks.Part-1\\DepManagersNameDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T07:13:08.595Z",
+              "WhenOpened": "2024-08-06T22:42:18.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\Repository.cs",
+              "RelativeDocumentMoniker": "Tasks.Part-1\\Repository.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\Repository.cs",
+              "RelativeToolTip": "Tasks.Part-1\\Repository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T22:26:40.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\Department.cs",
+              "RelativeDocumentMoniker": "Tasks.Part-1\\Department.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\Department.cs",
+              "RelativeToolTip": "Tasks.Part-1\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T22:24:34.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JoinOperations-08.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\JoinOperations-08.cs",
+              "RelativeDocumentMoniker": "Tasks.Part-1\\JoinOperations-08.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\JoinOperations-08.cs",
+              "RelativeToolTip": "Tasks.Part-1\\JoinOperations-08.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCMAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T22:18:20.761Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +92,7 @@
               "RelativeDocumentMoniker": "Tasks.Part-1\\Program.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-1\\Program.cs",
               "RelativeToolTip": "Tasks.Part-1\\Program.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAADwvzwAAACFAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAADwv0UAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T03:47:12.421Z",
               "EditorCaption": ""

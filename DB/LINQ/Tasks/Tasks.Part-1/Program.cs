@@ -1,4 +1,5 @@
 ﻿using FunctionalProgramming;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Tasks.Part_1
 {
@@ -64,9 +65,21 @@ namespace Tasks.Part_1
                     Console.WriteLine(emp);
                 }
             }
-           
 
+            var Departments = Repository.LoadDepartments();
 
+            var Managernames = JoinOperations_08.GetDepManagerName(Employees, Departments);
+            foreach (var item in Managernames)
+            {
+                Console.WriteLine(item);
+            }
+
+            var ManagernamesL = JoinOperations_08.GetDepManagerNameEvenIfNull(Employees, Departments);
+            foreach (var item in ManagernamesL)
+            {
+                Console.WriteLine(item);
+            }
+       
         }
     }
 }
