@@ -14,6 +14,7 @@ namespace Tasks.Part_1
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("------------------------------------------------------------------------");
 
             string Name = "MohAMmED";
             var UpperLtters = Name.UpperLetters();
@@ -21,6 +22,7 @@ namespace Tasks.Part_1
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("------------------------------------------------------------------------");
 
             var Employees = Repository.LoadEmployees();
             var EmpsFullName = ProjectionOperation_03.GetFullName(Employees);
@@ -28,18 +30,20 @@ namespace Tasks.Part_1
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("------------------------------------------------------------------------");
             var Males = ProjectionOperation_03.GetMaleEmps(Employees);
             foreach (var item in Males)
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("------------------------------------------------------------------------");
 
             var Sorted = SortingData_04.SortEmpsByDepAndSalary(Employees);
             foreach (var item in Sorted)
             {
                 Console.WriteLine(item);
             }
-
+            Console.WriteLine("------------------------------------------------------------------------");
             var Chunks = DataPartitioning_05.Partition(Employees);
             int counter = 0;
             foreach (var chunk in Chunks)
@@ -50,9 +54,12 @@ namespace Tasks.Part_1
                     Console.WriteLine(emp);
                 }
             }
+            Console.WriteLine("------------------------------------------------------------------------");
 
             Console.WriteLine(Quantifiers_06.CheckAll(Employees));
             Console.WriteLine(Quantifiers_06.CheckAny(Employees));
+
+            Console.WriteLine("------------------------------------------------------------------------");
 
             counter = 0;
             var Groups = GroupingData_07.GroupByDep(Employees);
@@ -65,7 +72,7 @@ namespace Tasks.Part_1
                     Console.WriteLine(emp);
                 }
             }
-
+            Console.WriteLine("------------------------------------------------------------------------");
             var Departments = Repository.LoadDepartments();
 
             var Managernames = JoinOperations_08.GetDepManagerName(Employees, Departments);
@@ -73,13 +80,24 @@ namespace Tasks.Part_1
             {
                 Console.WriteLine(item);
             }
-
+            Console.WriteLine("------------------------------------------------------------------------");
             var ManagernamesL = JoinOperations_08.GetDepManagerNameEvenIfNull(Employees, Departments);
             foreach (var item in ManagernamesL)
             {
                 Console.WriteLine(item);
             }
-       
+            Console.WriteLine("------------------------------------------------------------------------");
+            var Numbers = GenerationOperations_09.GetNums(1, 30);
+            foreach (var item in Numbers)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("------------------------------------------------------------------------");
+            var Dates = GenerationOperations_09.GetDatesInRange(new DateTime(2003, 5, 1), new DateTime(2003, 5, 20));
+            foreach (var item in Dates)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
