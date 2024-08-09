@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\equalityoperations-02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\equalityoperations-02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\elementoperations-01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\elementoperations-01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ElementOperations-01.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\ElementOperations-01.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-2\\ElementOperations-01.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\ElementOperations-01.cs",
-              "RelativeToolTip": "Tasks.Part-2\\ElementOperations-01.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABYAAAA",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Employee.cs",
+              "RelativeDocumentMoniker": "Tasks.Part-2\\Employee.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Employee.cs",
+              "RelativeToolTip": "Tasks.Part-2\\Employee.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowCsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T15:22:36.645Z",
+              "WhenOpened": "2024-08-09T16:00:59.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EqualityOperations-02.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\EqualityOperations-02.cs",
+              "RelativeDocumentMoniker": "Tasks.Part-2\\EqualityOperations-02.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\EqualityOperations-02.cs",
+              "RelativeToolTip": "Tasks.Part-2\\EqualityOperations-02.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T15:51:28.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Program.cs",
               "RelativeDocumentMoniker": "Tasks.Part-2\\Program.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Program.cs",
               "RelativeToolTip": "Tasks.Part-2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwEYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T15:21:32.906Z",
               "EditorCaption": ""

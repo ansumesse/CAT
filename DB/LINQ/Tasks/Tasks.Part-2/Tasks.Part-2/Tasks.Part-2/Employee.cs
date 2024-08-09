@@ -24,6 +24,37 @@ namespace Tasks.Part_2
 
         public decimal Salary { get; set; }
 
+        public override bool Equals(object? obj)
+        {
+            if (obj is null)
+                return false;
+            if (obj.GetType() != this.GetType())
+                return false;
+
+            var temp = (Employee)obj;
+            return temp.FirstName.Equals(this.FirstName)
+                && temp.LastName.Equals(this.LastName)
+                && temp.HireDate.Equals(this.HireDate)
+                && temp.Gender.Equals(this.Gender)
+                && temp.Department.Equals(this.Department)
+                && temp.HasHealthInsurance.Equals(this.HasHealthInsurance)
+                && temp.HasPensionPlan.Equals(this.HasPensionPlan)
+                && temp.Salary.Equals(this.Salary);
+        }
+        public override int GetHashCode()
+        {
+            int hash = 47;
+            hash *= 13 + FirstName.GetHashCode();
+            hash *= 13 + LastName.GetHashCode();
+            hash *= 13 + HireDate.GetHashCode();
+            hash *= 13 + Gender.GetHashCode();
+            hash *= 13 + Department.GetHashCode();
+            hash *= 13 + HasHealthInsurance.GetHashCode();
+            hash *= 13 + HasPensionPlan.GetHashCode();
+            hash *= 13 + Salary.GetHashCode();
+
+            return hash;
+        }
         public override string ToString()
         {
             return
