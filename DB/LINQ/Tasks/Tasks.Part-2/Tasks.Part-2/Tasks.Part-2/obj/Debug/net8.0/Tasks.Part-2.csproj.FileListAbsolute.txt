@@ -1,0 +1,15 @@
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\bin\Debug\net8.0\Tasks.Part-2.exe
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\bin\Debug\net8.0\Tasks.Part-2.deps.json
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\bin\Debug\net8.0\Tasks.Part-2.runtimeconfig.json
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\bin\Debug\net8.0\Tasks.Part-2.dll
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\bin\Debug\net8.0\Tasks.Part-2.pdb
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\Tasks.Part-2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\Tasks.Part-2.AssemblyInfoInputs.cache
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\Tasks.Part-2.AssemblyInfo.cs
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\Tasks.Part-2.csproj.CoreCompileInputs.cache
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\Tasks.Part-2.sourcelink.json
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\Tasks.Part-2.dll
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\refint\Tasks.Part-2.dll
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\Tasks.Part-2.pdb
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\Tasks.Part-2.genruntimeconfig.cache
+D:\Edu\BackEnd\CAT\DB\LINQ\Tasks\Tasks.Part-2\Tasks.Part-2\Tasks.Part-2\obj\Debug\net8.0\ref\Tasks.Part-2.dll
