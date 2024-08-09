@@ -7,7 +7,7 @@
             var Employees = Repository.LoadEmployees();
             Console.WriteLine(Employees.GetFirstElement());
             Console.WriteLine(Employees.GetLastElement());
-
+            Console.WriteLine("-------------------------------------------------------------------");
             var fiveEmps1 = new Employee[] {new Employee
                 {
                         Id = 1001,
@@ -129,16 +129,19 @@
                         Salary = 315800m
                 }};
             Console.WriteLine(fiveEmps1.CheckIfEqual(fiveEmps2));
+            Console.WriteLine("-------------------------------------------------------------------");
 
             var tenEmps = fiveEmps1.Concatenate(fiveEmps2);
             foreach (var item in tenEmps)
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("-------------------------------------------------------------------");
 
             Console.WriteLine($"Total Salary in IT = {Employees.SumEmpsSalaryWhere(x => x.Department == "IT"):N2}");
             Console.WriteLine($"Average Salary in IT = {Employees.AvgEmpsSalaryWhere(x => x.Department == "IT"):N2}");
             Console.WriteLine($"Max Salary in IT = {Employees.MaxEmpsSalaryWhere(x => x.Department == "IT"):N2}");
+            Console.WriteLine("-------------------------------------------------------------------");
 
             var meeting1Part = Repository.Meeting1.Participants;
             var meeting2Part = Repository.Meeting2.Participants;
@@ -150,7 +153,11 @@
             Console.WriteLine("**************");
             foreach (var item in meeting1Part.ExceptTwoEmps(meeting2Part))
                 Console.WriteLine(item);
-           
+            Console.WriteLine("-------------------------------------------------------------------");
+
+            foreach (var item in Employees.EmpsSalaryGreaterThan(200_000))
+                Console.WriteLine(item);
+
         }
     }
 }

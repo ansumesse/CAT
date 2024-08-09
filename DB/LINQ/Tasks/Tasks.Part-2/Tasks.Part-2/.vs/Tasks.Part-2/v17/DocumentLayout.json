@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\setsoperations-05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\setsoperations-05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\expressiontrees-06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\expressiontrees-06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,45 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Repository.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-2\\Repository.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Repository.cs",
-              "RelativeToolTip": "Tasks.Part-2\\Repository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAswBcAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T18:22:54.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Meeting.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Meeting.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-2\\Meeting.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Meeting.cs",
-              "RelativeToolTip": "Tasks.Part-2\\Meeting.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T18:21:12.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SetsOperations-05.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\SetsOperations-05.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-2\\SetsOperations-05.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\SetsOperations-05.cs",
-              "RelativeToolTip": "Tasks.Part-2\\SetsOperations-05.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACFAAAA",
+              "Title": "ExpressionTrees-06.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\ExpressionTrees-06.cs",
+              "RelativeDocumentMoniker": "Tasks.Part-2\\ExpressionTrees-06.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\ExpressionTrees-06.cs",
+              "RelativeToolTip": "Tasks.Part-2\\ExpressionTrees-06.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T17:49:55.833Z",
+              "WhenOpened": "2024-08-09T18:58:04.555Z",
               "EditorCaption": ""
             },
             {
@@ -75,7 +41,7 @@
               "RelativeDocumentMoniker": "Tasks.Part-2\\Program.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Program.cs",
               "RelativeToolTip": "Tasks.Part-2\\Program.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAQwJgAAAALAAAA",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAQwJ0AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T15:21:32.906Z",
               "EditorCaption": ""
