@@ -140,6 +140,17 @@
             Console.WriteLine($"Average Salary in IT = {Employees.AvgEmpsSalaryWhere(x => x.Department == "IT"):N2}");
             Console.WriteLine($"Max Salary in IT = {Employees.MaxEmpsSalaryWhere(x => x.Department == "IT"):N2}");
 
+            var meeting1Part = Repository.Meeting1.Participants;
+            var meeting2Part = Repository.Meeting2.Participants;
+            foreach (var item in meeting1Part.UnionTwoEmps(meeting2Part))
+                Console.WriteLine(item);
+            Console.WriteLine("**************");
+            foreach (var item in meeting1Part.IntersectTwoEmps(meeting2Part))
+                Console.WriteLine(item);
+            Console.WriteLine("**************");
+            foreach (var item in meeting1Part.ExceptTwoEmps(meeting2Part))
+                Console.WriteLine(item);
+           
         }
     }
 }

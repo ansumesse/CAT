@@ -9,6 +9,20 @@ namespace Tasks.Part_2
 {
     public static class Repository
     {
+        public static Meeting Meeting1 => new() {
+            Title = "meeting1",
+            Date = new(200, 3, 4),
+            StartAt = new(3, 4),
+            EndAt = new(4, 4, 4),
+            Participants = LoadEmployees().Take(10).ToList()
+        };
+        public static Meeting Meeting2 => new() {
+            Title = "meeting2",
+            Date = new(200, 4, 4),
+            StartAt = new(5, 4),
+            EndAt = new(4, 9, 4),
+            Participants = LoadEmployees().Skip(5).Take(10).ToList()
+        };
         public static IEnumerable<Employee> LoadEmployees()
         {
             return new List<Employee> 
