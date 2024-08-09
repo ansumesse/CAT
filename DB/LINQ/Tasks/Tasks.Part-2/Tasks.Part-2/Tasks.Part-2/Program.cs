@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            var Employee = Repository.LoadEmployees();
-            Console.WriteLine(Employee.GetFirstElement());
-            Console.WriteLine(Employee.GetLastElement());
+            var Employees = Repository.LoadEmployees();
+            Console.WriteLine(Employees.GetFirstElement());
+            Console.WriteLine(Employees.GetLastElement());
 
             var fiveEmps1 = new Employee[] {new Employee
                 {
@@ -135,6 +135,10 @@
             {
                 Console.WriteLine(item);
             }
+
+            Console.WriteLine($"Total Salary in IT = {Employees.SumEmpsSalaryWhere(x => x.Department == "IT"):N2}");
+            Console.WriteLine($"Average Salary in IT = {Employees.AvgEmpsSalaryWhere(x => x.Department == "IT"):N2}");
+            Console.WriteLine($"Max Salary in IT = {Employees.MaxEmpsSalaryWhere(x => x.Department == "IT"):N2}");
         }
     }
 }

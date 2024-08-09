@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\concatenation-03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\concatenation-03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\aggregateoperations-04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\aggregateoperations-04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Concatenation-03.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Concatenation-03.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-2\\Concatenation-03.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Concatenation-03.cs",
-              "RelativeToolTip": "Tasks.Part-2\\Concatenation-03.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAB+AAAA",
+              "Title": "AggregateOperations-04.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\AggregateOperations-04.cs",
+              "RelativeDocumentMoniker": "Tasks.Part-2\\AggregateOperations-04.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\AggregateOperations-04.cs",
+              "RelativeToolTip": "Tasks.Part-2\\AggregateOperations-04.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T16:15:11.353Z",
+              "WhenOpened": "2024-08-09T16:24:45.966Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Tasks.Part-2\\Program.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Program.cs",
               "RelativeToolTip": "Tasks.Part-2\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwIcAAAAmAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwIwAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T15:21:32.906Z",
               "EditorCaption": ""
