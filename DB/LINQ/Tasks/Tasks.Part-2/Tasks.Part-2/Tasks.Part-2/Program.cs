@@ -170,6 +170,11 @@
             foreach (var item in MangersOnlyOfType)
                 Console.WriteLine(item);
 
+            Console.WriteLine("----------------------------------9---------------------------------");
+            foreach (var item in Employees.Filter(x => x.Gender.Equals("male", StringComparison.OrdinalIgnoreCase)))
+                Console.WriteLine(item);
+
+
 
 
 

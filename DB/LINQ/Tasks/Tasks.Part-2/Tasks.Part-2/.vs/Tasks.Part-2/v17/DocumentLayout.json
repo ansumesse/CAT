@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\customlinqextensionmethods-09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\customlinqextensionmethods-09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\convertingdatatypes-08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\convertingdatatypes-08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|d:\\edu\\backend\\cat\\db\\linq\\tasks\\tasks.part-2\\tasks.part-2\\tasks.part-2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC95AA2B-A295-488A-9815-CD682E73441C}|Tasks.Part-2\\Tasks.Part-2.csproj|solutionrelative:tasks.part-2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Repository.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-2\\Repository.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Repository.cs",
-              "RelativeToolTip": "Tasks.Part-2\\Repository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA1wCEAAAAlAAAA",
+              "DocumentIndex": 0,
+              "Title": "CustomLINQExtensionMethods-09.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\CustomLINQExtensionMethods-09.cs",
+              "RelativeDocumentMoniker": "Tasks.Part-2\\CustomLINQExtensionMethods-09.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\CustomLINQExtensionMethods-09.cs",
+              "RelativeToolTip": "Tasks.Part-2\\CustomLINQExtensionMethods-09.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T22:17:38.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Employee.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-2\\Employee.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Employee.cs",
-              "RelativeToolTip": "Tasks.Part-2\\Employee.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAswDsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T22:05:12.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Manager.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-2\\Manager.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Manager.cs",
-              "RelativeToolTip": "Tasks.Part-2\\Manager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T22:04:08.338Z",
+              "WhenOpened": "2024-08-09T23:06:17.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConvertingDataTypes-08.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\ConvertingDataTypes-08.cs",
-              "RelativeDocumentMoniker": "Tasks.Part-2\\ConvertingDataTypes-08.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\ConvertingDataTypes-08.cs",
-              "RelativeToolTip": "Tasks.Part-2\\ConvertingDataTypes-08.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T21:31:27.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Program.cs",
               "RelativeDocumentMoniker": "Tasks.Part-2\\Program.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\LINQ\\Tasks\\Tasks.Part-2\\Tasks.Part-2\\Tasks.Part-2\\Program.cs",
               "RelativeToolTip": "Tasks.Part-2\\Program.cs",
-              "ViewState": "AQIAAJgAAAAAAAAAAAAAAKcAAAAwAAAA",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAQwK4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T15:21:32.906Z",
               "EditorCaption": ""
