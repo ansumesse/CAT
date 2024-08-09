@@ -22,7 +22,7 @@ namespace Tasks.Part_2
 
         public bool HasPensionPlan { get; set; }
 
-        public decimal Salary { get; set; }
+        public virtual decimal Salary { get; set; }
 
         public override bool Equals(object? obj)
         {

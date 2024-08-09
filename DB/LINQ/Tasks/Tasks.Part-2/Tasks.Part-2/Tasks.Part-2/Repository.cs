@@ -23,6 +23,18 @@ namespace Tasks.Part_2
             EndAt = new(4, 9, 4),
             Participants = LoadEmployees().Skip(5).Take(10).ToList()
         };
+        public static IEnumerable<Employee> LoadMangers()
+        {
+            return new List<Manager>
+            {
+                new Manager{Id = 2000, FirstName = "ff", LastName = "dd", HireDate = DateTime.Today,Gender = "male", 
+                    Department = "IT", HasHealthInsurance = true, HasPensionPlan = true, Salary = 200030, Bouns = 30000, },
+                new Manager{Id = 2001, FirstName = "ff", LastName = "dd", HireDate = DateTime.Today,Gender = "male", 
+                    Department = "IT", HasHealthInsurance = true, HasPensionPlan = true, Salary = 200030, Bouns = 30000, },
+                new Manager{Id = 2002, FirstName = "ff", LastName = "dd", HireDate = DateTime.Today,Gender = "male", 
+                    Department = "IT", HasHealthInsurance = true, HasPensionPlan = true, Salary = 200030, Bouns = 30000, },
+            };
+        }
         public static IEnumerable<Employee> LoadEmployees()
         {
             return new List<Employee> 
