@@ -128,7 +128,13 @@
                         HasPensionPlan = false,
                         Salary = 315800m
                 }};
-            Console.WriteLine(fiveEmps1.CheckIfEqual(fiveEmps2)); 
+            Console.WriteLine(fiveEmps1.CheckIfEqual(fiveEmps2));
+
+            var tenEmps = fiveEmps1.Concatenate(fiveEmps2);
+            foreach (var item in tenEmps)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
