@@ -73,6 +73,10 @@ namespace EF_Tasks.Part_1
                 .HasKey(x => x.Id)
                 .HasName("CourID");
 
+            // Define composite keys using multiple properties of an entity class.
+            modelBuilder.Entity<Course>()
+                .HasKey(x => new { x.Id, x.CourseName });
+
         }
         public DbSet<Instructor> Instructors { get; set; }
     }

@@ -45,7 +45,7 @@ namespace EF_Tasks.Part_1.Migrations
 
                     b.HasIndex("InstructorId");
 
-                    b.ToTable("Course");
+                    b.ToTable("Course", (string)null);
                 });
 
             modelBuilder.Entity("EF_Tasks.Part_1.Models.Instructor", b =>
@@ -62,7 +62,7 @@ namespace EF_Tasks.Part_1.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Instructors");
+                    b.ToTable("Instructors", (string)null);
                 });
 
             modelBuilder.Entity("EF_Tasks.Part_1.Models.Course", b =>
