@@ -116,6 +116,21 @@ namespace EF_Tasks.Part_1
             .WithMany()
             .UsingEntity(sc => sc.ToTable("StudentCourse"));
 
+            // Implement indirect many-to-many relationships using junction tables and configure the mapping using data annotations or fluent API.
+            modelBuilder.Entity<StudentCourse>()
+                .HasKey(x => new { x.St_Id, x.C_Id });
+
+            modelBuilder.Entity<StudentCourse>()
+                .HasOne(x => x.student)
+                .WithMany(x => x.StudentCourses)
+                .HasForeignKey(x => x.St_Id);
+
+            modelBuilder.Entity<StudentCourse>()
+           .HasOne(x => x.course)
+           .WithMany(x => x.studentCourses)
+           .HasForeignKey(x => x.C_Id);
+                
+
 
         }
         public DbSet<Instructor> Instructors { get; set; }

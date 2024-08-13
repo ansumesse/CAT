@@ -23,6 +23,7 @@ namespace EF_Tasks.Part_1.Models
         // Add comments to database columns using data annotations or fluent API
         [MaxLength(100), Comment("THis is a column comment")]
         public string CourseName { get; set; }
+        public List<StudentCourse> studentCourses { get; set; }
 
     }
 }
