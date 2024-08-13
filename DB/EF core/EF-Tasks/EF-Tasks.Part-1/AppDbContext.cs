@@ -25,26 +25,26 @@ namespace EF_Tasks.Part_1
                 .Property(x => x.Name)
                 .IsRequired();
 
-            /* // Prevent a specific entity from being included in the DbContext or migrations using configuration options
+             // Prevent a specific entity from being included in the DbContext or migrations using configuration options
              modelBuilder.Ignore<Course>();
 
             modelBuilder.Entity<Course>()
                 .ToTable("Courses", x => x.ExcludeFromMigrations());
-            */
+            
 
-            /* // Customize the table name for an entity using fluent API.
+            // Customize the table name for an entity using fluent API.
 
              modelBuilder.Entity<Instructor>()
                              .ToTable("FullName");
-             */
-            /* // Customize the table name for an entity using fluent API.
+             
+            // Customize the table name for an entity using fluent API.
              
             modelBuilder.Entity<Instructor>()
                             .ToTable("FullName", schema: "Training");
-             */
+             
 
             // Ignore certain properties of an entity from being mapped to database columns using configuration options.
-            // modelBuilder.Entity<Instructor>().Ignore(x => x.Courses);
+             modelBuilder.Entity<Instructor>().Ignore(x => x.courses);
 
             // Rename database columns for entity properties using data annotations or fluent API.
             modelBuilder.Entity<Course>()
@@ -76,8 +76,8 @@ namespace EF_Tasks.Part_1
                 .HasName("CourID");
 
             // Define composite keys using multiple properties of an entity class.
-            //modelBuilder.Entity<Course>()
-            //    .HasKey(x => new { x.Id, x.CourseName });
+            modelBuilder.Entity<Course>()
+                .HasKey(x => new { x.Id, x.CourseName });
 
             // Specify default values for database columns using data annotations or fluent API.
             modelBuilder.Entity<Instructor>()

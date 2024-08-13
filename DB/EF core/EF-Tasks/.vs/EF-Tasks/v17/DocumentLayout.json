@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\ef core\\ef-tasks\\ef-tasks.part-1\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\ef core\\ef-tasks\\ef-tasks.part-1\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\ef core\\ef-tasks\\ef-tasks.part-1\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\ef core\\ef-tasks\\ef-tasks.part-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentCourse.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\StudentCourse.cs",
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\Models\\StudentCourse.cs",
@@ -46,12 +46,11 @@
               "RelativeToolTip": "EF-Tasks.Part-1\\Models\\StudentCourse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T12:14:45.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T12:14:45.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\Student.cs",
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\Models\\Student.cs",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "EF-Tasks.Part-1\\Models\\Student.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:31:07.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T11:31:07.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Course.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\Course.cs",
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\Models\\Course.cs",
@@ -72,30 +70,30 @@
               "RelativeToolTip": "EF-Tasks.Part-1\\Models\\Course.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T00:47:02.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T00:47:02.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Instructor.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\Instructor.cs",
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\Models\\Instructor.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\Instructor.cs",
               "RelativeToolTip": "EF-Tasks.Part-1\\Models\\Instructor.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwCEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T00:20:52.492Z"
+              "WhenOpened": "2024-08-13T00:20:52.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\AppDbContext.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\AppDbContext.cs",
               "RelativeToolTip": "EF-Tasks.Part-1\\AppDbContext.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAAAHsAAAAnAAAA",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAE4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T00:11:19.619Z",
               "EditorCaption": ""
