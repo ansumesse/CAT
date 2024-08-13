@@ -64,6 +64,10 @@ namespace EF_Tasks.Part_1
                 .Property(x => x.CourseName)
                 .HasComment("this a new comment");
 
+            // Configure primary keys for entity classes using data annotations or fluent API.
+            modelBuilder.Entity<Course>()
+                .HasKey(x => x.Id);
+
         }
         public DbSet<Instructor> Instructors { get; set; }
     }
