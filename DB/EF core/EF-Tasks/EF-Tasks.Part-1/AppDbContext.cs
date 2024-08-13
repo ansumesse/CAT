@@ -43,7 +43,10 @@ namespace EF_Tasks.Part_1
             // Ignore certain properties of an entity from being mapped to database columns using configuration options.
             // modelBuilder.Entity<Instructor>().Ignore(x => x.Courses);
 
-
+            // Rename database columns for entity properties using data annotations or fluent API.
+            modelBuilder.Entity<Course>()
+                            .Property(x => x.CourseName)
+                            .HasColumnName("CName");
 
 
         }
