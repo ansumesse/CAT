@@ -5,7 +5,7 @@
 namespace EF_Tasks.Part_1.Migrations
 {
     /// <inheritdoc />
-    public partial class AddCourseTable : Migration
+    public partial class AddCoursesTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_Tasks.Part_1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240813004836_AddCourseTable")]
-    partial class AddCourseTable
+    [Migration("20240813005939_AddCoursesTable")]
+    partial class AddCoursesTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

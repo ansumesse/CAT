@@ -22,6 +22,14 @@ namespace EF_Tasks.Part_1
                 .Property(x => x.Name)
                 .IsRequired();
 
+            /* // Prevent a specific entity from being included in the DbContext or migrations using configuration options
+             modelBuilder.Ignore<Course>();
+
+            modelBuilder.Entity<Course>()
+                .ToTable("Courses", x => x.ExcludeFromMigrations());
+            */
+
+            
         }
         public DbSet<Instructor> Instructors { get; set; }
     }
