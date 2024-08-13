@@ -107,11 +107,21 @@ namespace EF_Tasks.Part_1
                 .WithOne()
                 .HasForeignKey(x => x.LicensePlate);
 
+            // Create many-to-many relationships between entity classes and configure the mapping table using data annotations or fluent API.
+
+            modelBuilder.Entity<Student>()
+                .HasKey(S => S.Sr_Id);
+            modelBuilder.Entity<Student>()
+            .HasMany<Course>()
+            .WithMany()
+            .UsingEntity(sc => sc.ToTable("StudentCourse"));
+
 
         }
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<Course> courses { get; set; }
         public DbSet<Car> Cars { get; set; }
         public DbSet<Sale> Sales { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }
