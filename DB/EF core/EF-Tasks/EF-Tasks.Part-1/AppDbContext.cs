@@ -92,8 +92,14 @@ namespace EF_Tasks.Part_1
                 .Property(x => x.Id)
                 .ValueGeneratedOnAdd();
 
+            // Define one-to-one relationships between entity classes using data annotations or fluent API.
+            modelBuilder.Entity<Instructor>()
+                .HasOne<Instructor>()
+                .WithOne();
+
 
         }
         public DbSet<Instructor> Instructors { get; set; }
+        public DbSet<Course> courses { get; set; }
     }
 }

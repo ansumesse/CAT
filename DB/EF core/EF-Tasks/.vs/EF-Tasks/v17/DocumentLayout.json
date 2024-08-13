@@ -49,9 +49,10 @@
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\Models\\Instructor.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\Instructor.cs",
               "RelativeToolTip": "EF-Tasks.Part-1\\Models\\Instructor.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAwCAAAAAcAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T00:20:52.492Z"
+              "WhenOpened": "2024-08-13T00:20:52.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,7 +62,7 @@
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\AppDbContext.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\AppDbContext.cs",
               "RelativeToolTip": "EF-Tasks.Part-1\\AppDbContext.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAmwFwAAAAmAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAmwGEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T00:11:19.619Z",
               "EditorCaption": ""
