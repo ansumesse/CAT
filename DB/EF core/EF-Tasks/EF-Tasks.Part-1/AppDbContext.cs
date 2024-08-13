@@ -74,14 +74,19 @@ namespace EF_Tasks.Part_1
                 .HasName("CourID");
 
             // Define composite keys using multiple properties of an entity class.
-            modelBuilder.Entity<Course>()
-                .HasKey(x => new { x.Id, x.CourseName });
+            //modelBuilder.Entity<Course>()
+            //    .HasKey(x => new { x.Id, x.CourseName });
 
             // Specify default values for database columns using data annotations or fluent API.
             modelBuilder.Entity<Instructor>()
                 .Property(x => x.RollDate)
                 .HasDefaultValueSql("GETDATE()");
-                
+
+            // Configure computed columns in the database schema.
+            modelBuilder.Entity<Instructor>()
+                .Property(x => x.NameId)
+                .HasComputedColumnSql("[NAME] + ', ' + [ID]");
+
 
         }
         public DbSet<Instructor> Instructors { get; set; }

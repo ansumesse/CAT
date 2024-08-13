@@ -30,7 +30,7 @@ namespace EF_Tasks.Part_1.Models
 
         //[NotMapped] //  Ignore certain properties of an entity from being mapped to database columns using configuration options.
         public List<Course> Courses { get; set; }
-        
+        public string NameId { get; set; }
         public DateTime RollDate { get; set; }
     }
 }
