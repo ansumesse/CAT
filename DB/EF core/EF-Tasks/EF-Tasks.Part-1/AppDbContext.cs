@@ -77,6 +77,12 @@ namespace EF_Tasks.Part_1
             modelBuilder.Entity<Course>()
                 .HasKey(x => new { x.Id, x.CourseName });
 
+            // Specify default values for database columns using data annotations or fluent API.
+            modelBuilder.Entity<Instructor>()
+                .Property(x => x.RollDate)
+                .HasDefaultValueSql("GETDATE()");
+                
+
         }
         public DbSet<Instructor> Instructors { get; set; }
     }
