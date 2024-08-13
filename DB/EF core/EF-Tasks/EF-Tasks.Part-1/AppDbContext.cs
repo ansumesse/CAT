@@ -48,6 +48,10 @@ namespace EF_Tasks.Part_1
                             .Property(x => x.CourseName)
                             .HasColumnName("CName");
 
+            // Specify data types for database columns corresponding to entity properties.
+            modelBuilder.Entity<Course>()
+                .Property(x => x.CourseName)
+                .HasColumnType("VARCHAR(50)");
 
         }
         public DbSet<Instructor> Instructors { get; set; }
