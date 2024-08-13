@@ -68,6 +68,11 @@ namespace EF_Tasks.Part_1
             modelBuilder.Entity<Course>()
                 .HasKey(x => x.Id);
 
+            // Customize the name of the primary key column in the database schema
+            modelBuilder.Entity<Course>()
+                .HasKey(x => x.Id)
+                .HasName("CourID");
+
         }
         public DbSet<Instructor> Instructors { get; set; }
     }
