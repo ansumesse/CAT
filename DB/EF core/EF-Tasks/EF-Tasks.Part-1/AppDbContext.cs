@@ -15,6 +15,14 @@ namespace EF_Tasks.Part_1
             // Create a new DbContext class and configure database connection strings in the application configuration file
             optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EFCoreLearning;Integrated Security=True");
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Use fluent API to mark specific columns as required in the database schema.
+            modelBuilder.Entity<Instructor>()
+                .Property(x => x.Name)
+                .IsRequired();
+
+        }
         public DbSet<Instructor> Instructors { get; set; }
     }
 }
