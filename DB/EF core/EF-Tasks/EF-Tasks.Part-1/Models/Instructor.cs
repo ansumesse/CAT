@@ -14,5 +14,8 @@ namespace EF_Tasks.Part_1.Models
         // Use data annotations to mark specific columns as required in the database schema.
         //[Required]
         public string Name { get; set; }
+
+        // Add a new entity class to the DbContext model and configure its mapping to the database.
+        public List<Course> Courses { get; set; }
     }
 }

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\ef core\\ef-tasks\\ef-tasks.part-1\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Migrations\\20240813004051_ModifyInstructorNameReq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF-Tasks.Part-1\\Migrations\\20240813004051_ModifyInstructorNameReq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\ef core\\ef-tasks\\ef-tasks.part-1\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\ef core\\ef-tasks\\ef-tasks.part-1\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\ef core\\ef-tasks\\ef-tasks.part-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|d:\\edu\\backend\\cat\\db\\ef core\\ef-tasks\\ef-tasks.part-1\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE274772-A6CE-4ADB-B7CA-1D8381E4011E}|EF-Tasks.Part-1\\EF-Tasks.Part-1.csproj|solutionrelative:ef-tasks.part-1\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Migrations\\20240813004051_ModifyInstructorNameReq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF-Tasks.Part-1\\Migrations\\20240813004051_ModifyInstructorNameReq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "EF-Tasks.Part-1\\Models\\Course.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\Course.cs",
+              "RelativeToolTip": "EF-Tasks.Part-1\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T00:47:02.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20240813004051_ModifyInstructorNameReq.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Migrations\\20240813004051_ModifyInstructorNameReq.cs",
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\Migrations\\20240813004051_ModifyInstructorNameReq.cs",
@@ -38,25 +55,24 @@
               "RelativeToolTip": "EF-Tasks.Part-1\\Migrations\\20240813004051_ModifyInstructorNameReq.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T00:40:51.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T00:40:51.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Instructor.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\Instructor.cs",
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\Models\\Instructor.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Models\\Instructor.cs",
               "RelativeToolTip": "EF-Tasks.Part-1\\Models\\Instructor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T00:20:52.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\AppDbContext.cs",
@@ -69,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\CAT\\DB\\EF core\\EF-Tasks\\EF-Tasks.Part-1\\Program.cs",
               "RelativeDocumentMoniker": "EF-Tasks.Part-1\\Program.cs",
