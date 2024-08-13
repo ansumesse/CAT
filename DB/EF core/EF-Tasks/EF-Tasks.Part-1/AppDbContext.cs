@@ -4,8 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace EF_Tasks.Part_1
 {
@@ -97,9 +99,19 @@ namespace EF_Tasks.Part_1
                 .HasOne<Instructor>()
                 .WithOne();
 
+            // Establish one - to - many relationships between entity classes using data annotations or fluent API.
+            modelBuilder.Entity<Car>()
+                .HasKey(x => x.LicensePlate);
+            modelBuilder.Entity<Car>()
+                .HasMany<Sale>()
+                .WithOne()
+                .HasForeignKey(x => x.LicensePlate);
+
 
         }
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<Course> courses { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<Sale> Sales { get; set; }
     }
 }

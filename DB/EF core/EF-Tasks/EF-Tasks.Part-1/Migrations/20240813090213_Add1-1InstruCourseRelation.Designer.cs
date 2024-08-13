@@ -4,6 +4,7 @@ using EF_Tasks.Part_1;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_Tasks.Part_1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240813090213_Add1-1InstruCourseRelation")]
+    partial class Add11InstruCourseRelation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,19 +24,6 @@ namespace EF_Tasks.Part_1.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("EF_Tasks.Part_1.Models.Car", b =>
-                {
-                    b.Property<string>("LicensePlate")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("CarId")
-                        .HasColumnType("int");
-
-                    b.HasKey("LicensePlate");
-
-                    b.ToTable("Cars");
-                });
 
             modelBuilder.Entity("EF_Tasks.Part_1.Models.Course", b =>
                 {
@@ -91,42 +81,11 @@ namespace EF_Tasks.Part_1.Migrations
                     b.ToTable("Instructors");
                 });
 
-            modelBuilder.Entity("EF_Tasks.Part_1.Models.Sale", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("LicensePlate")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("LicensePlate");
-
-                    b.ToTable("Sales");
-                });
-
             modelBuilder.Entity("EF_Tasks.Part_1.Models.Instructor", b =>
                 {
                     b.HasOne("EF_Tasks.Part_1.Models.Instructor", null)
                         .WithOne()
                         .HasForeignKey("EF_Tasks.Part_1.Models.Instructor", "InstructorId");
-                });
-
-            modelBuilder.Entity("EF_Tasks.Part_1.Models.Sale", b =>
-                {
-                    b.HasOne("EF_Tasks.Part_1.Models.Car", null)
-                        .WithMany()
-                        .HasForeignKey("LicensePlate")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
