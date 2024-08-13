@@ -29,12 +29,17 @@ namespace EF_Tasks.Part_1
                 .ToTable("Courses", x => x.ExcludeFromMigrations());
             */
 
-           /* // Customize the table name for an entity using fluent API.
-            
-            modelBuilder.Entity<Instructor>()
-                            .ToTable("FullName");
-            */
+            /* // Customize the table name for an entity using fluent API.
 
+             modelBuilder.Entity<Instructor>()
+                             .ToTable("FullName");
+             */
+            /* // Customize the table name for an entity using fluent API.
+             
+            modelBuilder.Entity<Instructor>()
+                            .ToTable("FullName", schema: "Training");
+             */
+            
         }
         public DbSet<Instructor> Instructors { get; set; }
     }

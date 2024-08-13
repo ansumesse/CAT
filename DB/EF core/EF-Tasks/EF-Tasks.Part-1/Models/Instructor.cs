@@ -12,6 +12,9 @@ namespace EF_Tasks.Part_1.Models
 {
     // Customize the table name for an entity using data annotations.
     // [Table("FullName")]
+
+    // Customize the table name for an entity using data annotations.
+    // [Table("FullName", Schema = "Training")]
     internal class Instructor
     {
         
