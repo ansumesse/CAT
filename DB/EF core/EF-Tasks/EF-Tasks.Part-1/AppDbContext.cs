@@ -53,6 +53,11 @@ namespace EF_Tasks.Part_1
                 .Property(x => x.CourseName)
                 .HasColumnType("VARCHAR(50)");
 
+            // Set maximum length constraints for string properties in the database schema.
+            modelBuilder.Entity<Course>()
+                .Property(x => x.CourseName)
+                .HasMaxLength(100);
+
         }
         public DbSet<Instructor> Instructors { get; set; }
     }

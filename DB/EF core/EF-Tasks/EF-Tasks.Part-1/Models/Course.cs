@@ -14,7 +14,9 @@ namespace EF_Tasks.Part_1.Models
         // Rename database columns for entity properties using data annotations 
         // [Column("CName")]
         // Specify data types for database columns corresponding to entity properties.
-        [Column(TypeName = "VARCHAR[50]")]
+        //[Column(TypeName = "VARCHAR(50)")]
+        // Set maximum length constraints for string properties in the database schema.
+        [MaxLength(100)]
         public string CourseName { get; set; }
 
     }
