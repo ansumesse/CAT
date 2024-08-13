@@ -15,6 +15,9 @@ namespace EF_Tasks.Part_1.Models
 
     // Customize the table name for an entity using data annotations.
     // [Table("FullName", Schema = "Training")]
+
+    // Prevent a specific entity from being included in the DbContext or migrations using configuration options
+    // [NotMapped]
     internal class Instructor
     {
         
@@ -25,7 +28,7 @@ namespace EF_Tasks.Part_1.Models
 
         // Add a new entity class to the DbContext model and configure its mapping to the database.
 
-        //[NotMapped] // Prevent a specific entity from being included in the DbContext or migrations using configuration options
+        //[NotMapped] //  Ignore certain properties of an entity from being mapped to database columns using configuration options.
         public List<Course> Courses { get; set; }
     }
 }

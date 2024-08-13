@@ -39,7 +39,13 @@ namespace EF_Tasks.Part_1
             modelBuilder.Entity<Instructor>()
                             .ToTable("FullName", schema: "Training");
              */
-            
+
+            // Ignore certain properties of an entity from being mapped to database columns using configuration options.
+            // modelBuilder.Entity<Instructor>().Ignore(x => x.Courses);
+
+
+
+
         }
         public DbSet<Instructor> Instructors { get; set; }
     }
