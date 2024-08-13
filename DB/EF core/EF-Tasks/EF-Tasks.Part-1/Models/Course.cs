@@ -12,7 +12,8 @@ namespace EF_Tasks.Part_1.Models
     internal class Course
     {
         // Configure primary keys for entity classes using data annotations or fluent API.
-        [Key]
+        // Set default values for primary key columns using data annotations or fluent API.
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         // Rename database columns for entity properties using data annotations 
         // [Column("CName")]

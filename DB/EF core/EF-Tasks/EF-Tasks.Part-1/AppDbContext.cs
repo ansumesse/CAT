@@ -87,6 +87,11 @@ namespace EF_Tasks.Part_1
                 .Property(x => x.NameId)
                 .HasComputedColumnSql("[NAME] + ', ' + [ID]");
 
+            // Set default values for primary key columns using data annotations or fluent API.
+            modelBuilder.Entity<Course>()
+                .Property(x => x.Id)
+                .ValueGeneratedOnAdd();
+
 
         }
         public DbSet<Instructor> Instructors { get; set; }
