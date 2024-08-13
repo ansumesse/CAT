@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -16,7 +17,8 @@ namespace EF_Tasks.Part_1.Models
         // Specify data types for database columns corresponding to entity properties.
         //[Column(TypeName = "VARCHAR(50)")]
         // Set maximum length constraints for string properties in the database schema.
-        [MaxLength(100)]
+        // Add comments to database columns using data annotations or fluent API
+        [MaxLength(100), Comment("THis is a column comment")]
         public string CourseName { get; set; }
 
     }

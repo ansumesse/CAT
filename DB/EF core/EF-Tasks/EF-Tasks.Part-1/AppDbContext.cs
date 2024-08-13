@@ -1,4 +1,5 @@
-﻿using EF_Tasks.Part_1.Models;
+﻿using EF_Tasks.Part_1.Migrations;
+using EF_Tasks.Part_1.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -57,6 +58,11 @@ namespace EF_Tasks.Part_1
             modelBuilder.Entity<Course>()
                 .Property(x => x.CourseName)
                 .HasMaxLength(100);
+
+            // Add comments to database columns using data annotations or fluent API
+            modelBuilder.Entity<Course>()
+                .Property(x => x.CourseName)
+                .HasComment("this a new comment");
 
         }
         public DbSet<Instructor> Instructors { get; set; }
