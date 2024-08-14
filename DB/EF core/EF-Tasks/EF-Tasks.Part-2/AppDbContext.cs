@@ -25,8 +25,14 @@ namespace EF_Tasks.Part_2
             // -2- Define a composite index on the FirstName and LastName columns of the Customers table.
             modelBuilder.Entity<Customer>()
                 .HasIndex(x => new { x.FirstName, x.LastName });
+
+            // -3- Ensure that the Email column in the Users table has a unique index to enforce email uniqueness
+            modelBuilder.Entity<User>()
+                .HasIndex(x => x.Email)
+                .IsUnique(true);
         }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
