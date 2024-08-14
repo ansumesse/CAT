@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EF-Tasks.Part-2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73ba10eb3d8a81bce9d586497f2e0f906bc19dae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bdcc3ffa88b9b30a7499b837b3f747183b3c7e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EF-Tasks.Part-2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EF-Tasks.Part-2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

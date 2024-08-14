@@ -30,9 +30,15 @@ namespace EF_Tasks.Part_2
             modelBuilder.Entity<User>()
                 .HasIndex(x => x.Email)
                 .IsUnique(true);
+
+            // -4- Customize the name of the index on the ProductName column of the Products table to IX_ProductName
+            modelBuilder.Entity<Product>()
+                .HasIndex(x => x.ProductName)
+                .HasDatabaseName("IX_ProductName");
         }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
