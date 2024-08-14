@@ -44,7 +44,7 @@ namespace EF_Tasks.Part_2.Migrations
 
                     b.HasIndex("FirstName", "LastName");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customers", (string)null);
                 });
 
             modelBuilder.Entity("EF_Tasks.Part_2.Models.Order", b =>
@@ -67,7 +67,7 @@ namespace EF_Tasks.Part_2.Migrations
 
                     b.HasIndex("CreatedOn");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("EF_Tasks.Part_2.Models.Product", b =>
@@ -96,7 +96,7 @@ namespace EF_Tasks.Part_2.Migrations
                     b.HasIndex("ProductName")
                         .HasDatabaseName("IX_ProductName");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("EF_Tasks.Part_2.Models.Role", b =>
@@ -113,7 +113,7 @@ namespace EF_Tasks.Part_2.Migrations
 
                     b.HasKey("RoleId");
 
-                    b.ToTable("Roles");
+                    b.ToTable("Roles", (string)null);
 
                     b.HasData(
                         new
@@ -150,7 +150,7 @@ namespace EF_Tasks.Part_2.Migrations
                     b.HasIndex("Email")
                         .IsUnique();
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 #pragma warning restore 612, 618
         }
