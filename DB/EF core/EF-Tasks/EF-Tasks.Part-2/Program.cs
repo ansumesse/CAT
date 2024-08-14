@@ -27,8 +27,13 @@ namespace EF_Tasks.Part_2
             //Console.WriteLine(order.OrderId + ", " + order.CreatedOn);
 
             // -11- Retrieve the first active product using .First
-            var product = context.Products.First(x => x.IsActive);
-            Console.WriteLine($"{product.ProductId} {product.ProductName}");
+            //var product = context.Products.First(x => x.IsActive);
+            //Console.WriteLine($"{product.ProductId} {product.ProductName}");
+
+            // -12- Retrieve the last order placed by a specific customer using .Last
+            var customer = context.Customers.OrderBy(x => x.CoustomerId).Last();
+            Console.WriteLine($"{customer.CoustomerId} {customer.FirstName} {customer.LastName}");
+
         }
 
     }
