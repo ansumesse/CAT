@@ -10,5 +10,6 @@ namespace EF_Tasks.Part_2.Models
     {
         public int OrderId { get; set; }
         public DateOnly CreatedOn { get; set; }
+        public int OrderNumber { get; set; }
     }
 }

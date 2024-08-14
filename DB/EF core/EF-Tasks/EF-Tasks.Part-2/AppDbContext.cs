@@ -40,6 +40,14 @@ namespace EF_Tasks.Part_2
             modelBuilder.Entity<Product>()
                 .HasIndex(x => x.IsActive)
                 .HasFilter("[ISACTIVE] = 1");
+
+            // -6- Generate unique order numbers using a sequence named OrderNumberSeq.
+            modelBuilder.HasSequence("OrderNumberSeq");
+
+            modelBuilder.Entity<Order>()
+                .Property(x => x.OrderNumber)
+                .HasDefaultValueSql("NEXT VALUE FOR OrderNumberSeq");
+
         }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }
