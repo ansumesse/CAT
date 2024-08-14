@@ -35,6 +35,11 @@ namespace EF_Tasks.Part_2
             modelBuilder.Entity<Product>()
                 .HasIndex(x => x.ProductName)
                 .HasDatabaseName("IX_ProductName");
+
+            // -5- Add a filtered index on the IsActive column of the Products table where IsActive is true.
+            modelBuilder.Entity<Product>()
+                .HasIndex(x => x.IsActive)
+                .HasFilter("[ISACTIVE] = 1");
         }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }

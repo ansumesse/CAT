@@ -10,5 +10,6 @@ namespace EF_Tasks.Part_2.Models
     {
         public int ProductId { get; set; }
         public string ProductName { get; set; }
+        public bool IsActive { get; set; }
     }
 }
