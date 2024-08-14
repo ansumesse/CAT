@@ -48,10 +48,18 @@ namespace EF_Tasks.Part_2
                 .Property(x => x.OrderNumber)
                 .HasDefaultValueSql("NEXT VALUE FOR OrderNumberSeq");
 
+            // -7- Seed the Roles table with initial roles such as Admin, User, and Guest during application startup.
+            modelBuilder.Entity<Role>()
+                .HasData(
+                new Role() { RoleId = 10, RoleName = "Admin" },
+                new Role() { RoleId = 20, RoleName = "User" },
+                new Role() { RoleId = 30, RoleName = "Guest" });
+
         }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Role> Roles { get; set; }
     }
 }
